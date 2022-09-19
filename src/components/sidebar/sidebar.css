@@ -1,0 +1,32 @@
+.containerSidebar{
+    /* border: 2px solid black; */
+    width: 15%;
+    height:100vh;
+    position: fixed;
+    top: 5%;
+}
+.list{
+    height: 100%;
+}
+
+.list ul li{
+    /* border: 2px solid green; */
+    list-style-type: none;
+    display: flex;
+    width: fit-content;
+    font-weight: bold;
+    padding: 5%;
+}
+
+li img{
+    margin-right: 10px;
+    /* border: 2px solid gold; */
+}
+li p{
+    cursor: pointer;
+}
+
+li:hover{
+    border-left: 5px solid #1876F2;
+
+}

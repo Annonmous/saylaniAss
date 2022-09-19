@@ -1,0 +1,38 @@
+.ContentContainer{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 45%;
+   top: 15%;
+   left: 25%;
+   min-height: 100%;
+   
+}
+.post{
+    /* border: 2px solid green; */
+    width: 70%;
+    margin: 0% auto; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.header{
+    display: flex;
+}
+
+.Contenticon{
+    width: fit-content;
+}
+.center1{
+    /* border: 2px solid red; */
+}
+.contentText{
+    /* border: 2px solid gold; */
+    width: 100%;
+    min-height: 100%;
+    word-wrap: break-word;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
